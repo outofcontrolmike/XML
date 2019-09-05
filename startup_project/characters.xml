@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Create records of characters-->
+<characters>
+
+    <Character id = "7">
+        <name>Cloud</name>
+        <personallity>Lost</personallity>
+        <weapon>Buster</weapon>
+        <gender>Male</gender>
+    </Character>
+    <character id = "8">
+        <name>Squall</name>
+        <personallity>EMO</personallity>
+        <weapon>Gun Blade</weapon>
+        <gender>Male</gender>
+    </character>
+    <character id = "9">
+        <name>Zidane</name>
+        <personallity>Optomistic</personallity>
+        <weapon>Dagger</weapon>
+        <gender>Male</gender>
+    </character>
+    <character id = "10">
+        <name>Tidus</name>
+        <personallity>Fun</personallity>
+        <weapon>Sword</weapon>
+        <gender>Male</gender>
+    </character>
+
+</characters>
