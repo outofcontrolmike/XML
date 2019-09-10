@@ -9,19 +9,19 @@
 
 <!--Create a place for the xml to go into -->
 
-<h1>Final Fantasy Characters</h1>
-<table border='3'>
-    <tr bgcolor="hsla(89, 43%, 51%, 0.3)">
-        <th style="text-align:left">Character Name</th>
+<table border='1'  width="80%" height="100%">
+    <tr bgcolor="beige">
+        <th style="text-align:center">Character Name</th>
         <th style="text-allgn:left">Personallity</th>
         <th style="text-allgn:left">Weapon</th>
         <th style="text-allgn:left">Gender</th>
+        
     </tr>
     <!--For each Chracter record in Characters -->
     <xsl:for-each select="characters/character">
     <tr>
     <!--Grab the value of each character property -->
-        <td><xsl:value-of select ="name" /></td>
+        <td><xsl:value-of select ="name"/></td>
         <td><xsl:value-of select ="personallity" /></td>
         <td><xsl:value-of select = "weapon"/></td>
         <td><xsl:value-of select = "gender"/></td>

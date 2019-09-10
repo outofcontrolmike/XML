@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>  
-<characters>                 <!--Create records of characters-->
+<?xml version="1.0" encoding="UTF-8"?>
+<characters>    <!--Create records of characters-->
     <character id = "7">
         <name>Cloud</name>
         <personallity>Lost</personallity>
@@ -7,18 +7,21 @@
         <gender>Male</gender>
     </character>
     <character id = "8">
+        <portrait></portrait>
         <name>Squall</name>
         <personallity>EMO</personallity>
         <weapon>Gun Blade</weapon>
         <gender>Male</gender>
     </character>
     <character id = "9">
+        <portrait></portrait>
         <name>Zidane</name>
         <personallity>Optomistic</personallity>
         <weapon>Dagger</weapon>
         <gender>Male</gender>
     </character>
     <character id = "10">
+        <portrait></portrait>
         <name>Tidus</name>
         <personallity>Fun</personallity>
         <weapon>Sword</weapon>
