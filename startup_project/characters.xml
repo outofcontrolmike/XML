@@ -1,14 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<!--Create records of characters-->
-<characters>
-
-    <Character id = "7">
+<?xml version="1.0" encoding="UTF-8"?>  
+<characters>                 <!--Create records of characters-->
+    <character id = "7">
         <name>Cloud</name>
         <personallity>Lost</personallity>
         <weapon>Buster</weapon>
         <gender>Male</gender>
-    </Character>
+    </character>
     <character id = "8">
         <name>Squall</name>
         <personallity>EMO</personallity>
@@ -27,5 +24,4 @@
         <weapon>Sword</weapon>
         <gender>Male</gender>
     </character>
-
 </characters>
