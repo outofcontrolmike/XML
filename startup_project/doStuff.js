@@ -1,7 +1,30 @@
 
 //Array of images to print to fanArt div
 
-var charImages = ['']
+var charImages = ['images/cecil.jpg','zidane.jpg', 'tifa.jpg', 'tidus.jpeg', 'squall.jpg', 'shadow.jpg', 'ramzda.jpg', 'qunia.jpg', 'freya.jpg', 'cloud.jpeg'];
+
+
+//Need to sort and display every image
+// Create an element for every string?
+// Place this all into a div
+
+function displayImages()
+{
+  //sorts by name, works with how the xml is sorted currently as well
+  charImages.sort();
+
+  var fanArt = document.getElementById('fanArt');
+
+  for(var i = 0; i <= charImages.length; i++)
+  {
+    //Create elment here
+ //   var htmlString = "<img height='200' width='200' src='" + charImages[i] + "' alt = '" + i +  "/>";
+   // document.write(htmlString);
+  }
+  
+}
+
+
 
 
 //Implement some javascript to load data from XML into HTMl
