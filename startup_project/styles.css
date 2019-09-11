@@ -10,14 +10,13 @@ h1
     text-align: center;
     padding: 10px;
     border: solid 10px;
-    
     padding: 20px;
     margin: 20px;
     
 }
 table
 {
-    top: 120px;
+    top: 110px;
     position: absolute;
     text-align: center;
     height: 600px;
@@ -35,20 +34,22 @@ table
 
 img
 {
+    position: relative;
+    top: 200px;
     vertical-align: middle;
-    width: 150px;
+    width: 170px;
     height:200px;
-    padding-bottom: 10px;
+    right: 10px;
+    
     
 }
 
 .fanart
 {
    position: relative;
-    top: 190px;
    max-width: 200px;
     min-width: 100px;
-    padding:20px;
+    padding: 20px;
     margin: 20px;
     
 }

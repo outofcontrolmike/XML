@@ -34,9 +34,9 @@
     </xsl:for-each> <!--End for each -->
 
 </table>
-</xsl:template>
+</xsl:template> <!--End Template -->
 
-</xsl:stylesheet>
+</xsl:stylesheet> <!--End Stylesheet -->
 
 
 

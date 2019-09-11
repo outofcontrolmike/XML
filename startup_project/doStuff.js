@@ -1,7 +1,7 @@
 
 //Array of images to print to fanArt div
 
-var charImages = ['images/cecil.jpg','zidane.jpg', 'tifa.jpg', 'tidus.jpeg', 'squall.jpg', 'shadow.jpg', 'ramzda.jpg', 'qunia.jpg', 'freya.jpg', 'cloud.jpeg'];
+var charImages = ['images/cecil.jpg','images/zidane.jpg', 'images/tifa.jpg', 'images/tidus.jpeg', 'images/squall.jpg', 'images/shadow.jpg', 'images/ramzda.jpg', 'images/quina.jpg', 'images/freya.jpg', 'images/cloud.jpeg'];
 
 
 //Need to sort and display every image
@@ -14,12 +14,15 @@ function displayImages()
   charImages.sort();
 
   var fanArt = document.getElementById('fanArt');
+  var arraylength = charImages.length;
 
-  for(var i = 0; i <= charImages.length; i++)
+  for(var i = 0;  i < arraylength; i++)
   {
-    //Create elment here
- //   var htmlString = "<img height='200' width='200' src='" + charImages[i] + "' alt = '" + i +  "/>";
-   // document.write(htmlString);
+
+    var imageMaker = "<ul><img src='" + charImages[i] + "' width='200' height='200'</ul>";
+    fanArt.innerHTML += imageMaker;
+    console.log(imageMaker);
+
   }
   
 }
@@ -52,6 +55,8 @@ function displayImages()
     return xhttp.responseXML;
     }
     
+
+    //Displays xml with xsl styling
     function displayResult()
     {
     xml = loadXMLDoc("characters.xml");
