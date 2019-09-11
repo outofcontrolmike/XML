@@ -1,4 +1,13 @@
+
+//Array of images to print to fanArt div
+
+var charImages = ['']
+
+
 //Implement some javascript to load data from XML into HTMl
+
+
+
 
 //1st function 
 

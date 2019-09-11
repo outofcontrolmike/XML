@@ -14,19 +14,25 @@
         <th style="text-align:center">Character Name</th>
         <th style="text-allgn:left">Personallity</th>
         <th style="text-allgn:left">Weapon</th>
+        <th>Special</th>
         <th style="text-allgn:left">Gender</th>
-        
+        <th>Game Origin</th>
     </tr>
     <!--For each Chracter record in Characters -->
     <xsl:for-each select="characters/character">
+    <xsl:sort select="name"/>
     <tr>
     <!--Grab the value of each character property -->
         <td><xsl:value-of select ="name"/></td>
         <td><xsl:value-of select ="personallity" /></td>
         <td><xsl:value-of select = "weapon"/></td>
+        <td><xsl:value-of select = "special"/></td>
         <td><xsl:value-of select = "gender"/></td>
+        <td><xsl:value-of select = "game"/></td>
+        
     </tr>
-    </xsl:for-each>
+    </xsl:for-each> <!--End for each -->
+
 </table>
 </xsl:template>
 
