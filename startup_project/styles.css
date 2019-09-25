@@ -8,12 +8,28 @@ h1
 {
     position: relative;
     text-align: center;
-    padding: 10px;
+    padding: 25px;
     border: solid 10px;
-    padding: 20px;
     margin: 20px;
     
+    
 }
+
+.charBio
+{
+    position: absolute;
+    text-align: center;
+    max-width: 20%;
+    padding: 10px;
+    border: solid 5px;
+    left: 78%;
+    margin: 50px;
+    bottom: 55%;
+    position:sticky;
+
+    
+}
+
 table
 {
     top: 110px;
@@ -29,7 +45,7 @@ table
  td, th
 {
     height:200px;
-    width: 200px;
+    width: 175px;
 }
 
 img
@@ -38,18 +54,22 @@ img
     top: 200px;
     vertical-align: middle;
     width: 170px;
-    height:200px;
-    right: 10px;
+    height:190px;
+    right: 20px;
     
     
 }
 
-.fanart
+#fanart
 {
    position: relative;
+   top: 20px;
    max-width: 200px;
     min-width: 100px;
-    padding: 20px;
-    margin: 20px;
     
+   
 }
+
+
+
+

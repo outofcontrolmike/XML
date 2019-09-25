@@ -9,7 +9,7 @@
 
 <!--Create a place for the xml to go into -->
 
-<table border='1'  width="80%" height="100%">
+<table border='1'  width="65%" height="65%">
     <tr bgcolor="beige">
         <th style="text-align:center">Character Name</th>
         <th style="text-allgn:left">Personallity</th>
