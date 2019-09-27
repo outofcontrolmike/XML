@@ -9,7 +9,7 @@
 
 <!--Create a place for the xml to go into -->
 
-<table border='1'  width="65%" height="65%">
+<table  border='1'  width="65%" height="65%">
     <tr bgcolor="beige">
         <th style="text-align:center">Character Name</th>
         <th style="text-allgn:left">Personallity</th>
@@ -27,7 +27,7 @@
         <td><xsl:value-of select ="personallity" /></td>
         <td><xsl:value-of select = "weapon"/></td>
         <td><xsl:value-of select = "special"/></td>
-        <td><xsl:value-of select = "gender"/></td>
+        <td><xsl:value-of select = "gender"/>/td>
         <td><xsl:value-of select = "game"/></td>
         
     </tr>
