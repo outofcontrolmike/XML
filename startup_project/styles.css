@@ -11,8 +11,12 @@ h1
     padding: 25px;
     border: solid 10px;
     margin: 20px;
-    
-    
+
+}
+
+h3 
+{
+    margin-top: 20px;
 }
 
 .charBio
@@ -23,13 +27,9 @@ h1
     padding: 10px;
     border: solid 5px;
     left: 78%;
-    margin: 50px;
-    bottom: 50%;
+    bottom: 67%;
     position:sticky;
-    font-size: 25px;
-    
-
-    
+    font-size: 22px;
 }
 
 table
