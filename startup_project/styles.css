@@ -11,26 +11,28 @@ h1
     padding: 25px;
     border: solid 10px;
     margin: 20px;
-    
-    
+    font-family: 'Yeon Sung', cursive;
+
+
+
+}
+
+h3 
+{
+   
 }
 
 .charBio
 {
-    position: absolute;
+    position: fixed;
+	top:140px;
     text-align: center;
     max-width: 20%;
     padding: 10px;
-    border: solid 5px;
     left: 78%;
-    margin: 50px;
-    bottom: 50%;
-    position:sticky;
-    font-size: 25px;
-    
-
-    
-}
+    font-size: 20px;
+	border: 2px solid black;
+	}
 
 table
 {

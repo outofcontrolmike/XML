@@ -31,7 +31,10 @@ function displayImages()
 
 function displayBio(charImages)
 {
+	
   document.getElementById('charText').innerHTML = charDescriptions[charImages];
+ 
+	
 }
 
 
